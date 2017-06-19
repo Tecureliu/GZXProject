@@ -1,0 +1,129 @@
+@import '../mygzx/Mygzxcommon.scss';
+
+
+.address-body{
+    padding-top:60px;
+}
+.address-top{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    border-bottom:1px solid #EDEDED;
+    position: fixed;
+    top:0;
+    left: 0;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index:99;
+    .toLastPage{
+        display: inline-block;
+        position: absolute;
+        top:0;
+        left:10px;
+        width: 20px;
+        z-index:99;
+        i{
+            color: #4A4A4A;
+        }
+    }
+    h4{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        font-weight: normal;
+        font-size:14px;
+        color:#4A4A4A;
+    }
+}
+.address-body-main{
+    margin-bottom:50px;
+    .addAddressMsgLink{
+        border-top:1px solid #EDEDED;
+        border-bottom:1px solid #EDEDED;
+        width: 100%;
+        display: block;
+        height: 40px;
+        background-color: white;
+        line-height: 40px;
+        padding-left:15px;
+        position: relative;
+        .addAddressMsgSpan1{
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            background-color: #199354;
+            border-radius: 50%;
+            font-size:24px;
+            color:white;
+            text-align: center;
+            line-height: 20px;
+            position: absolute;
+            top:9px;
+            left:15px;
+        }
+        .addAddressMsgSpan2{
+             display: inline-block;
+             padding-left:30px;
+        }
+        i{
+            display: inline-block;
+            position: absolute;
+            top:0px;
+            right:15px;
+        }
+    }
+    .addressUl{
+        display: block;
+        width: 100%;
+        
+        margin-top:20px;
+        height: 100%;
+        
+        .addressLi{
+            background-color: white;
+            width: 100%;
+            height: 70px;
+            border-top:1px solid #EDEDED;
+            border-bottom:1px solid #EDEDED;
+            margin-bottom: 10px;
+            .addressLink{
+                display: block;
+                width: 100%;
+                height: 100%;
+                padding-left:15px;
+                position: relative;
+                text-align: left;
+                .addressName, .addressPhone{
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px;
+                    margin-right:15px;
+                    color:#2A2A2A;
+                    font-size:14px;
+                }
+                .addressSit{
+                    display: block;
+                    height: 30px;
+                }
+                .addressDefault{
+                    position: absolute;
+                    top:25px;
+                    right:15px;
+                    width: 35px;
+                    height: 20px;
+                    background-color: #199354;
+                    border-radius: 3px 3px 3px 3px;
+                    text-align: center;
+                    line-height: 20px;
+                    color: white;
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+}

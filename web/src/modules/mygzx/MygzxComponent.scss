@@ -1,0 +1,199 @@
+
+@import './Mygzxcommon.scss';
+
+html{
+    //background-color: #FAFDFD;
+}
+.top{
+    width: 100%;
+    height: 230px;
+    padding-top:20px;
+    position:relative;
+    text-align:center;
+    .mygzx-setting{
+        position: absolute;
+        top: 20px;
+        right:20px;
+        i{
+            font-size:25px;
+            color:#199354;
+        }
+    }
+    .loginregist{
+        display:block;
+        margin:0 auto;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        background-color: #F3F4F6;
+        border-radius: 50%;
+        padding-top:16px;
+        box-shadow:0px 0px 30px #9FD4C3,0px 3px 5px #bbb,0 3px 10px #BDBEC0 inset;
+        border:5px solid white;
+        margin-bottom: 30px;
+        img{
+            width: 35px;height: 35px;margin:0 auto;margin-top:7px;
+            display: inline-block;
+            border-radius:5px;
+            box-shadow: 0px 0px 30px #BDBEC0, 0px 3px 5px #BDBEC0;
+        }
+        i{
+            display:block;
+            color:#199354;
+            font-size:30px;
+            font-weight: bold;
+        }
+        span{
+            color:#199354;
+            font-size: 8px;
+            display: block;
+            margin-top:5px;
+        }
+    }
+    .loginUserMes{
+        //display: none;
+        margin-bottom: 10px;
+        span{
+            display:block;
+        }
+        .loginUserPhone{
+            color:#199354;
+        }
+    }
+    .bb{
+        color:#199354;
+        display: inline-block;
+        width: 40%;
+        font-weight: bold;
+    }
+
+}
+.mygzx-body{
+    width: 100%;
+    text-align: center;
+    &>ul{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        &>li{
+            display: inline-block;
+            width: 33%;
+            height: 85px;
+            .mygzx-body-code{
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                &>i{
+                    display: inline-block;
+                    border-radius: 50%;
+                    border:6px solid #BDBEC0;
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    font-size: 22px;
+                    margin:0 auto;
+                    padding-top:8px;
+                    margin-bottom:5px;
+                    color:white;
+                }
+                &>span{
+                    display: block;
+                }
+            }
+            .mygzx-body-code1{
+                &>i{
+                    border:6px solid #AEE6F7;
+                    background-color: #00B3EB;
+                }
+            }
+            .mygzx-body-code2{
+                &>i{
+                    border:6px solid #FBD8B8;
+                    background-color: #FF8519;
+                }
+            }
+            .mygzx-body-code1{
+                &>i{
+                    border:6px solid #AEE6F7;
+                    background-color: #00B3EB;
+                }
+            }
+            .mygzx-body-code3{
+                &>i{
+                    border:6px solid #B0EEBA;
+                    background-color: #05CD20;
+                }
+            }
+            .mygzx-body-code4{
+                &>i{
+                    border:6px solid #DAC3F7;
+                    background-color: #9E50F3;
+                }
+            }
+            .mygzx-body-code5{
+                &>i{
+                    border:6px solid #AED7FD;
+                    background-color: #0081FF;
+                }
+            }
+            .mygzx-body-code6{
+                &>i{
+                    border:6px solid #F7E990;
+                    background-color: #F3D31B;
+                }
+            }
+        }
+    }
+    
+}
+.bottom{
+    width: 100%;
+    height: 50px;
+    border-top:1px solid #D5D5D5;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background-color: white;
+    
+    &>ul{
+        display: flex;
+        padding-top:5px;
+        &>li{
+            display: inline-block;
+            width: 20%;
+            text-align: center;
+            .bottom-gzx{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                &>i{
+                    display: block;
+                    font-size: 22px;
+                    color:#8D8A8A;
+                }
+            }
+            .bottom-gzx2{
+                &>i{
+                    font-weight: bold;
+                }
+            }
+            .bottom-gzx3{
+                &>i{
+                    color:#199354;
+                }
+            }
+            .bottom-gzx4{
+                &>i{
+                   font-weight: bold;
+                }
+            }
+            .bottom-gzx5{
+                &>i{
+                    color:#199354;
+                }
+            }
+        }
+    }
+}

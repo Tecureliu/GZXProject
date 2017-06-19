@@ -1,0 +1,140 @@
+@import '../mygzx/Mygzxcommon.scss';
+.addressMsg{
+    padding-top:60px;
+}
+.addressMsg-top{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    border-bottom:1px solid #EDEDED;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #fff;
+    .toLastPage{
+        display: inline-block;
+        position: absolute;
+        top:0;
+        left:10px;
+        width: 20px;
+        z-index:99;
+        i{
+            color: #4A4A4A;
+        }
+    }
+    h4{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        font-weight: normal;
+        font-size:14px;
+        color:#4A4A4A;
+    }
+}
+
+.addressMsgUl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    .addressMsgLi{
+        flex:1;
+        position: relative;
+        margin:0 auto;
+        width: 90%;
+        height: 38px;
+        &>input, .useraddresslx, .sheng, .usercity, .userqu{
+            width: 100%;
+            height: 38px;
+            border:0;
+            border-bottom:1px solid #E6E6E6;
+            padding-left:100px;
+            background-color: white;
+        }
+        .sheng, .usercity, .userqu{
+            option{
+                font-size: 8px;
+                line-height: 12px;
+            }
+        }
+        &>span{
+            display: inline-block;
+            position: absolute;
+            top:11px;
+            left:13px;
+            font-size: 14px;
+        }
+        .useraddresslx{
+            top:0;
+            left:0;
+        }
+        .useraddresslx-gsjt{
+            display:inline-block;
+            position: absolute;
+            top:11px;
+            left:110px;
+            img, span{
+                display: inline-block;
+                float:left;
+                
+            }
+            img{
+                width: 15px;
+                margin-right:10px;
+            }
+            span{
+                margin-right:20px;
+            }
+        }
+    }
+}
+.setAddressToDefaultDiv{
+     width: 90%;
+     margin: 0 auto;
+     margin-top:15px;
+     background-color: white;
+     display: flex;
+     justify-content:space-between;
+     padding-left: 5px;
+     height: 38px;
+     padding-top:10px;
+     margin-bottom:50px;
+     img{
+         display: inline-block;
+         width: 40px;
+         height: 25px;
+     }
+}
+.addressMsgBtn{
+    width: 80%;
+    height: 38px;
+    margin: 0 auto;
+    display:block;
+    margin-top:15px;
+    border-radius: 5px 5px 5px 5px;
+    border:0;
+    background-color: #199354;
+    color:#fff;
+}
+.addressMsgfr{
+    padding-top:3px;
+    width: 80%;
+    height: 18px;
+    margin: 0 auto;
+    display:block;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:50px;
+    link{
+        color:#4A4A4A;
+    }
+}
+.hzzhdl{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color:#aBaBaB;
+}

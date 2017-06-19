@@ -1,0 +1,334 @@
+@import url(../../static/styles/font/iconfont.css);
+.order_main{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background:#f4f4f4;
+	padding-bottom: 0.98rem;
+	.order_top{
+		width: 100%;
+		height: 0.84rem;
+		border-bottom:0.02rem solid #ccc;
+		text-align: center;
+		line-height: 0.84rem;
+		font-size: 0.28rem;
+		box-shadow: 0 0.02rem 0.22rem rgba(0, 0, 0, 0.05);
+		position: fixed;
+		z-index:100;
+		background:#fff;
+		.order_back{
+			position: absolute;
+			left:0.2rem;
+			font-size: 0.38rem;
+		}
+		
+
+	}
+	.order_tips{
+		width: 100%;
+		height: 0.68rem;
+		line-height: 0.68rem;
+		box-sizing: border-box;
+		background: #fff9eb;
+		position: fixed;
+		top:0.84rem;
+		border-bottom:0.02rem solid #ffedd5;
+		font-size: 0.24rem;
+		text-align: center;
+		z-index:90;
+
+	}
+	.order_address{
+		height: 1.4rem;
+		width: 100%;
+		background:#fff;
+		margin-top: 1.52rem;
+		// text-align: center;
+		line-height: 1.4rem;
+		position: relative;
+		font-size: 0.24rem;
+		.order_addlogo{
+			display: inline-block;
+			width: 0.28rem;
+			position: absolute;
+			top:0.52rem;
+			left: 0.4rem;
+		}
+		.order_addresstext{
+			margin-left: 0.84rem;
+		}
+		.order_jiantou{
+			position: absolute;
+			width: 0.12rem;
+			top:0.58rem;
+			left: 6.08rem;
+			margin: 0;
+		}
+	}
+	.order_line{
+			width: 100%;
+			display: block;
+	}
+	.order_shu{
+		position: relative;
+		font-size: 0.24rem;
+		padding-left:0.2rem;
+		margin-top: 0.12rem;
+		width:100%;
+		height: 0.66rem;
+		background:#fff;
+		border-bottom:0.02rem solid #eee;
+		line-height: 0.66rem;
+		span{
+			font-size: 0.24rem;
+			color:red;
+		}
+		.order_jiantou1{
+			position: absolute;
+			width: 0.12rem;
+			top:0.22rem;
+			left: 6.08rem;
+			margin: 0;
+		}
+	}
+	.order_goodspic{
+		width: 100%;
+		background:#fff;
+		min-height:1.32rem;
+		overflow-x: auto;
+		.order_pic{
+			display: block;
+			width: 1.12rem;
+			float:left;
+			margin: 0.1rem 0.0rem 0.1rem 0.1rem;
+		}
+	}
+	.order_xinxi1{
+		position: relative;
+		.order_pei{
+			width: 100%;
+			height: 1.06rem;
+			background:#fff;
+			margin-top: 0.16rem;
+			line-height:1.06rem;
+			border-bottom:0.02rem solid #eee;
+			padding-left:0.2rem;
+			font-size: 0.24rem;
+			span.order_data{
+				font-size: 0.24rem;
+				margin-left: 3.26rem;
+			}
+			.order_jiantou2{
+			position: absolute;
+			width: 0.12rem;
+			top:0.44rem;
+			left: 6.08rem;
+			margin: 0;
+			}
+		}
+		.order_fa{
+			width: 100%;
+			height: 0.6rem;
+			background:#fff;
+			line-height:0.6rem;
+			border-bottom:0.02rem solid #eee;
+			padding-left:0.2rem;
+			font-size: 0.24rem;
+			span.order_yao{
+				font-size: 0.24rem;
+				margin-left: 3.98rem;
+			}
+			.order_jiantou3{
+			position: absolute;
+			width: 0.12rem;
+			top:1.28rem;
+			left: 6.08rem;
+			margin: 0;
+			}
+		}
+		.order_liu{
+			width: 100%;
+			height: 0.6rem;
+			background:#fff;
+			line-height:0.6rem;
+			border-bottom:0.02rem solid #eee;
+			padding-left:0.2rem;
+			font-size: 0.24rem;
+			input.order_liuyan{
+				font-size: 0.24rem;
+				margin-left: 0.0rem;
+				border:none;
+			}
+			
+		}
+		.order_quan{
+			width: 100%;
+			height: 0.6rem;
+			background:#fff;
+			line-height:0.6rem;
+			border-bottom:0.02rem solid #eee;
+			padding-left:0.2rem;
+			font-size: 0.24rem;
+			margin-top: 0.14rem;
+			span.order_shuliang{
+				display: inline-block;
+				width: 0.26rem;
+				height: 0.38rem;
+				font-size: 0.24rem;
+				margin-left: 0.16rem;
+				line-height: 0.38rem;
+			    background: #ff6353;
+			    text-align: center;
+			    border-radius: 0.2rem;
+			    color: #fff;
+			    vertical-align: middle;
+			}
+			span.order_manzu{
+				font-size: 0.24rem;
+				margin-left: 2.9rem;
+			}
+			.order_jiantou4{
+			position: absolute;
+			width: 0.12rem;
+			top:2.66rem;
+			left: 6.08rem;
+			margin: 0;
+			}
+		}
+		.order_price{
+			width: 100%;
+			height: 1.84rem;
+			background:#fff;
+			margin-top: 0.14rem;
+			overflow:hidden;
+			font-size: 0.24rem;
+
+			.order_pricexinxi{
+				width: 100%;
+				height: 1.2rem;
+				border-bottom:0.02rem solid #eee;
+				margin-top: 0.14rem;
+				overflow:hidden;
+				font-size: 0.24rem;
+
+				p{
+					margin: 0;
+					font-size: 0.24rem;
+					color:#7c7c7c;
+					&.order_sum{
+						margin-left: 0.2rem;
+						margin-top: 0.06rem;
+						font-size: 0.24rem;
+
+						.order_sumtxt{
+							margin-left: 3.2rem;
+							font-size: 0.24rem;
+							margin-top: 0.06rem;
+							&:before{
+								content:'￥';
+							}
+						}
+					}
+					&.order_yun{
+						font-size: 0.24rem;
+						margin-left: 0.2rem;
+						margin-top: 0.24rem;
+						.order_yuntxt{
+							font-size: 0.24rem;
+							margin-left: 3.7rem;
+							margin-top: 0.06rem;
+							&:before{
+								content:'￥';
+							}
+						}
+					}
+
+				}
+			}
+			.order_pricefu{
+				height: 0.6rem;
+				p{
+					font-size: 0.24rem;
+					margin:0;
+					line-height: 0.6rem;
+					&.order_fu{
+						margin-left: 0.2rem;
+						.order_futxt{
+							font-size: 0.24rem;
+							margin-left: 3.24rem;
+							margin-top: 0.06rem;
+							&:before{
+								content:'￥';
+							}
+						}
+					}
+				}
+			}
+		}
+		.order_dixian{
+			background:#fff;
+			margin-top: 0.14rem;
+			padding-left: 0.2rem;
+			height: 0.68rem;
+			line-height:0.68rem;
+			position: relative;
+			background:#fff;
+			font-size: 0.24rem;
+
+			.order_tanhao{
+				display: inline-block;
+				width: 0.28rem;
+				position: absolute;
+				top: 0.22rem;
+				left: 1.14rem;
+			}
+			.order_dixiantxt1{
+				margin-left: 2.5rem;
+				font-size: 0.24rem;
+
+			}
+			.order_button{
+				display: inline-block;
+				width: 0.82rem;
+				position: absolute;
+				top: 0.12rem;
+				left: 5.36rem;
+			}
+		}
+		.order_jiesuan{
+			position: fixed;
+			bottom: 0;
+			background:#fff;
+			width: 100%;
+			height: 0.84rem;
+			line-height: 0.84rem;
+			font-size: 0.24rem;
+			overflow:hidden;
+			box-shadow: 0 0.02rem 0.22rem rgba(0, 0, 0, 0.15);
+			.order_yingfu{
+				margin-left: 0.2rem;
+				font-size: 0.24rem;
+
+			}
+			.order_yingfutxt{
+				font-size: 0.24rem;
+				color:red;
+				&:before{
+					content:'￥';
+					margin-left: 0.4rem;
+				}
+			}
+			.order_jiesuantxt{
+				display: inline-block;
+				width: 1.92rem;
+				height: 0.84rem;
+				background:#f33d2a;
+				color:#fff;
+				font-size: 0.28rem;
+				text-align: center;
+				line-height: 0.84rem;
+				float:right;
+			}
+		}
+	}
+}

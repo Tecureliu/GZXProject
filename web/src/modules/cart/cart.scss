@@ -1,0 +1,312 @@
+@import url(../../static/styles/font/iconfont.css);
+.cart_main{
+	width: 100%;
+	background:#f4f4f4;
+	.cart_cart{
+		margin-bottom: 1.54rem;
+		overflow: hidden;
+	
+		.cart_top{
+			width: 100%;
+			height: 0.84rem;
+			border-bottom:0.02rem solid #ccc;
+			text-align: center;
+			line-height: 0.84rem;
+			font-size: 0.28rem;
+			box-shadow: 0 0.02rem 0.22rem rgba(0, 0, 0, 0.05);
+			position: fixed;
+			z-index:2;
+			background:#fff;
+			.cart_back{
+				position: absolute;
+				left:0.2rem;
+				font-size: 0.38rem;
+			}
+			.cart_edit{
+				font-size: 0.24rem;
+				 position: absolute;
+	    		left: 5.6rem;
+
+			}
+
+		}
+		.cart_tips{
+			width: 100%;
+			height: 0.68rem;
+			line-height: 0.68rem;
+			box-sizing: border-box;
+			background: #fff9eb;
+			position: fixed;
+			top:0.84rem;
+			border-bottom:0.02rem solid #ffedd5;
+			font-size: 0.24rem;
+			z-index:1;
+			box-shadow: 0 0.02rem 0.22rem rgb(255, 237, 213);
+			text-align: center;
+			.cart_tips_price{
+				color:red;
+
+			}
+		}
+		.cart_list{
+			margin-top: 1.68rem;
+			width: 100%;
+			text-align: center;
+			position: relative;
+			min-height:2.24rem;
+			overflow:hidden;
+
+			.cart_empty{
+				// display: none;
+				background:#fff;
+				padding-bottom:0.6rem;
+				border-bottom:0.02rem solid #e3e3e3;
+				overflow:hidden;
+				.cart_img1{
+					width: 2.0rem;
+					margin: auto;
+					margin-top: 0.6rem;
+					
+				}
+				.cart_car{
+					color:rgb(217, 217, 217);
+					font-size: 1.8rem;
+				}
+				.cart_emtxt{
+					font-size: 0.24rem;
+					color:#808080;
+					margin: 0.4rem 0;
+				}
+				.cart_goshop{
+					display: block;
+					width: 2.34rem;
+					height: 0.64rem;
+					border:0.02rem solid #11b57c;
+					border-radius:0.12rem;
+					text-align: center;
+					line-height: 0.64rem;
+					color:#11b57c;
+					margin: 0 auto;
+					font-size: 0.28rem;
+				}
+			}
+			.cart_notEmpty{
+				width: 100%;
+				background:#fff;
+				.cart_listAll{
+					min-height:2.24rem;
+					.cart_listdetails{
+						position: relative;
+						width: 100%;
+						height: 2.24rem;
+						border-bottom:0.02rem solid #eee;
+						margin-right: 0.06rem;
+						.cart_check{
+							position: absolute;
+							width: 0.28rem;
+							height: 0.28rem;
+							top: 0.92rem;
+							left: 0.16rem;
+						}
+						.cart_pic{
+							position: absolute;
+							// border:1px solid #eee;
+							width: 1.8rem;
+							height: 1.8rem;
+							top:0.2rem;
+							left:0.16rem;
+
+						}
+						.cart_text{
+							position: absolute;
+							margin-top: 0.34rem;
+							width: 2.98rem;
+							left: 2.24rem;
+							text-align: left;
+							.cart_goodsTitle{
+								font-size: 0.24rem;
+								overflow:hidden; 
+								text-overflow:ellipsis;
+								display:-webkit-box; 
+								-webkit-box-orient:vertical;
+								-webkit-line-clamp:2; 
+							}
+							.cart_line-all{
+								display: inline-block;
+								float: left;
+							    position: absolute;
+							    width: 1.24rem;
+							    height:0.32rem ;
+							  	border:0.02rem solid #11b57c;
+							    line-height:0.28rem;
+							    color: #11b57c;
+							    text-align: center;
+							    border-radius: 0.3rem;
+							    margin-top: 0.18rem;
+							}
+							.cart_goodsPrice1{
+								font-size: 0.26rem;
+								color:red;
+								font-weight: bold;
+								position: absolute;
+								top:1.15rem;
+								left:0.0rem;
+
+								&:before{
+									content:'￥';
+									font-size: 0.24rem;
+								}
+								.cart_goodsPrice2{
+								font-size: 0.24rem;
+								color:#ccc;
+								text-decoration:line-through;
+								font-weight: normal;
+									&:before{
+										content:'￥';
+										font-size: 0.24rem;
+									}
+								}
+							}
+						}
+						.cart_del{
+							width: 0.26rem;
+							height: 0.26rem;
+							position: absolute;
+							left: 5.6rem;
+							top: 0.44rem;
+							img{
+								width: 0.26rem;
+								height: 0.26rem;
+							}
+						}
+						.cart_num{
+							position: absolute;
+							top:1.4rem;
+							left:4.6rem;
+							.cart_numcut{
+								display: inline-block;
+								text-align: center;
+								line-height: 0.3rem;
+								width: 0.36rem;
+								height: 0.36rem;
+								border:0.02rem solid #ddd;
+								box-sizing: border-box;
+								border-radius: 0.06rem 0.0rem 0.0rem 0.06rem;
+								float:left;
+								border-right:none;
+								font-size: 0.24rem;
+							}
+							.cart_numadd{
+								display: inline-block;
+								text-align: center;
+								line-height: 0.3rem;
+								width: 0.36rem;
+								height: 0.36rem;
+								border:0.02rem solid #ddd;
+								box-sizing: border-box;
+								border-radius: 0.0rem 0.06rem 0.06rem 0.0rem;
+								float:left;
+								border-left:none;
+								font-size: 0.24rem;
+							}
+							.cart_count{
+								width: 0.6rem;
+								height: 0.36rem;
+								box-sizing: border-box;
+								border:0.02rem solid #ddd;
+								float:left;
+								text-align: center;
+								font-size: 0.24rem
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+	.cart_settlement{
+		position: fixed;
+		top: 9.82rem;
+		width: 100%;
+		height: 0.7rem;
+		background:#fff;
+		border-top:0.02rem solid #eee;
+		line-height: 0.7rem;
+		font-size: 0.24rem;
+		box-shadow: 0 0.02rem 0.22rem rgba(0, 0, 0, 0.15);
+		overflow:hidden;
+		.cart_settlement_text{
+			font-size: 0.24rem;
+			margin-right: 0.9rem;
+			.cart_totlePrice{
+				font-size: 0.24rem;
+				color:red;
+				font-weight: bold;
+				&:before{
+					content:'￥'
+				}
+			}
+		}
+		.cart_goCount{
+			display: inline-block;
+			width: 1.8rem;
+			height: 0.7rem;
+			background:#f33d2a;
+			float:right;
+			text-align: center;
+			line-height: 0.7rem;
+			color:#fff;
+			margin-bottom: 0.4rem;
+		}
+	}	
+	.cart_guess{
+		text-align: center;
+		background:#fff;
+		margin-top: 0.14rem;
+		// height: 300px;
+		overflow:hidden;
+		margin-bottom: 0.2rem;
+		.cart_guesstitle{
+			text-align: center;
+			font-weight: bold;
+			font-size: 0.28rem;
+			margin: 0;
+			margin-top: 0.14rem;
+			
+		}
+		.cart_guessyourlike{
+
+			ul{
+				width: 100%;
+				.cart_guessgoods{
+					width: 42%;
+					text-align: left;
+					float:left;
+					margin-left: 0.44rem;
+					margin-bottom: 0.2rem;
+					.cart_guesspic{
+						width: 2.54rem;
+						display: block;
+					}
+					.cart_guessgoodstitle{
+						width: 2.54rem;
+						font-size: 0.24rem;
+						overflow:hidden; 
+						text-overflow:ellipsis;
+						display:-webkit-box; 
+						-webkit-box-orient:vertical;
+						-webkit-line-clamp:1; 
+					}
+					.cart_guessgoodsPrice{
+						font-size: 0.24rem;
+						color:red;
+
+						&:before{
+							content:"￥";
+						}
+					}
+				}
+			}
+		}
+	}
+}

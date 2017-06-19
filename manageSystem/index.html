@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>管理员首页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery.form.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body >
+
+	
+	<div class="container">
+		<div id="header" style="">
+			<h1 style="font-size: 23px;line-height: 70px;">果珍鲜后台管理系统</h1>
+			<p>
+				<span class="time" style="background-color: #525252;font-size: 14px;font-weight: normal;">
+					<span id="time" style="background-color: #525252;"></span>
+				</span>
+				<span class="user" style="background-color: #525252;width: 138.2px;font-size: 14px;font-weight: normal;">
+					欢迎光临,<strong>admin</strong>
+					<i class="iconfont icon-xiala1"></i>
+					<ul class="admin_set">
+			
+						<li >
+							<a href="javascript:;" class="user-close">退出</a>
+						</li>
+					</ul>
+				</span>
+			</p>
+		</div>
+		<div id="main">
+			<div class="main_left">
+				<!-- <h4>果珍鲜后台管理系统</h4> -->
+				<ul>
+					<!-- <li class="shouye">
+						<i class="iconfont icon-shouyeshouye"></i>
+						<a href="#" style="font-size: 13px;">系统首页</a>
+					</li> -->
+					<li class="goods_mng">
+						<i class="iconfont icon-chanpin"></i>
+						<a href="#" style="font-size: 13px;">商品管理</a>
+						<span class="iconfont icon-xiala1"></span>
+						
+					</li>
+					<ul class="prt_mng">
+						<li><a href="#">商品列表</a></li>
+						<li><a href="#">评论管理</a></li>
+						<li><a href="#">分类管理</a></li>
+					</ul>
+					
+					
+				</ul>
+			</div>
+			<div class="main_right" >
+				<fieldset style="padding:20px; width:88%;height: 64px;">
+					<legend style="margin-left:20px;padding:0 5px;">搜索查询</legend>
+					<label for="name" style="font-size: 14px;">输入商品名称或类别</label>
+					<input type="text" placeholder="输入商品名称或类别" style="outline:none;height:20px;border-radius: 5px;border: 1px solid #ccc;width: 171px;height: 30px;" class="keywords">
+					<span style="font-size:12px;padding:5px;background:#5eb95e;border-radius:6px;cursor:pointer;color:white;height: 22px;width: 56px;display: inline-block;text-align: center;line-height: 22px;" class="btn_search">
+					<i class="iconfont icon-search"></i>查询</span>
+					<button class="btn_modle" style="margin-right:20px;width: 90px;float:right;cursor:pointer;border-radius:5px;border:none;outline:none;padding:10px;color :#fff;background-color:#5a98de">
+						+添加商品
+					</button>
+					<button class="allCut" style="margin-right:20px;width: 90px;cursor:pointer;float:right;border-radius:5px;border:none;outline:none;padding:10px;background-color:#dd514c;color :#fff;">
+						<i class="iconfont icon-shanchu"></i>删除商品
+					</button>
+				</fieldset>
+				<div style="margin-top:30px;width:92%;border:1px solid #ccc;height: 395px;overflow-y: scroll;overflow-x: scroll ; ">
+
+
+					<div class="lei" style="width:3411px;height: 50px;background: #eee;">
+						<input type="checkbox" class="allCheck">
+						<span class="allcheck">全选</span>
+						<span >商品图</span>
+						<span >商品名称</span>
+						<span >原价</span>
+						<span >现价</span>
+						<span>所属大分类</span>
+						<span >所属小分类</span>
+						<span >销量</span>
+						<span >产地</span>
+						<span >规格一</span>
+						<span >规格二</span>
+						<span >规格三</span>
+						<span >规格一价格</span>
+						<span >规格二价格</span>
+						<span >规格三价格</span>
+						<span >详情页轮播图1</span>
+						<span >详情页轮播图2</span>
+						<span >详情页轮播图3</span>
+						<span >详情图1</span>
+						<span >详情图2</span>
+						<span >详情图3</span>
+						<span >详情图4</span>
+						<span >详情图5</span>
+						<span >详情图6</span>
+						<span >详情图7</span>
+						<span >详情图8</span>
+						<span >商品ID</span>
+						<span >商品操作</span>
+					</div>
+					<div class="list" style="width:3411px;">
+						<!-- <ul class="aaa"> -->
+							<!-- <li>
+								<input type="checkbox" class="check">
+							</li>
+							<li>
+								<p class="img"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="title">新奇士美国夏橙12个190g以上/个(GD)</p>
+							</li>
+							<li>
+								
+							</li>
+							<li>
+								<p class="old-price">65</p>
+							</li>
+							<li>
+								<p class="new-price">79</p>
+							</li>
+							<li>
+								<p class="bigkind">进口水果</p>
+							</li>
+							<li>
+								<p class="smallkind">新鲜水果</p>
+							</li>
+							<li>
+								<p class="sale">30</p>
+							</li>
+							<li>
+								<p class="origin">美国</p>
+							</li>
+							<li>
+								<p class="size1">500g</p>
+							</li>
+							<li>
+								<p class="size2">600g</p>
+							</li>
+							<li>
+								<p class="size3">700g</p>
+							</li>
+							<li>
+								<p class="size1-price">50</p>
+							</li>
+							<li>
+								<p class="size2-price">60</p>
+							</li>
+							<li>
+								<p class="size3-price">70</p>
+							</li>
+							<li>
+								<p class="banner1"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="banner2"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="banner3"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img1"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img2"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img3"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img4"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img5"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img6"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img7"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<p class="img8"><img src="../webapp/images/111.jpg" alt=""></p>
+							</li>
+							<li>
+								<span class="edit"><i class="iconfont icon-xiugai"></i>编辑</span>
+							</li>
+							<li>
+								<span class="cut"> <span class="iconfont icon-shanchu"></span>删除</span>
+							</li> -->
+						<!-- </ul> -->
+						
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+		<div id="footer">
+			<p class="l_f">版权所有:果珍鲜  广ICP备**********号    地址：广州市**区**路***号  邮编：****** 技术支持：tan90°</p>
+         
+		</div>
+	</div>
+	<div class="zhe"></div>
+	
+	
+	<div class="container1" style="    left:50%; margin-left: -350px;">
+		<div class="tips" ><b>温馨提示：</b><p>该后台不支持图片局部修改，若是要修改图片请选择该商品的所有图片！否则会清空当前商品所存在的所有图片！</p></div>
+	<div class="box clear">	
+		<p class="Toptitle" style="">添加商品</p>
+		<div class="closed">×</div>
+
+	</div>
+		<form>
+  			<div class="shuru">
+  			<div class="div1">
+  				<label for="inputPassword1" class="abc">商品名</label>
+    		
+      		<input type="text" class="aa goodname"  id="inputPassword1" placeholder="">
+  			</div>
+    		
+    	
+    		<div class="div1">
+
+  				<label for="inputPassword2" class="abc ad">原价</label>
+    		
+      		<input type="text" class="aa old-price1"  id="inputPassword2" placeholder="">
+    	
+  			</div>
+    		
+    		<div class="div1">
+  				<label for="inputPassword3" class="abc">现价</label>
+    		
+      		<input type="text" class="aa new-price1" id="inputPassword3" placeholder="">
+  			</div>
+    		
+    	
+    		<div class="div1">
+  				<label for="inputEmail4" class="abc">所属大分类</label>
+    		
+      			<input type="text" class="aa bigkind1" id="inputEmail4" placeholder=""><br>
+  			</div>
+    		
+    		
+  		
+    		<div class="div1">
+  				<label for="inputEmail5" class="abc">所属小分类</label>
+    		
+      			<input type="text" class="aa smallkind1" id="inputEmail5" placeholder="">
+  			</div>
+    		
+  		
+  		
+    		<div class="div1">
+  				<label for="inputEmail6" class="abc">销量</label>
+    		
+      			<input type="text" class="aa sale1" id="inputEmail6" placeholder=""><br>
+  			</div>
+    		
+  		
+  			<div class="div1">
+  				<label for="inputPassword7" class="abc">产地</label>
+    		
+      		<input type="text" class="aa origin1" id="inputPassword7" placeholder="">
+  			</div>
+    		
+    	
+    		<div class="div1">
+  				<label for="inputEmai7" class="abc">规格一</label>
+    		
+      			<input type="text" class="aa sizeOne" id="inputEmai7" placeholder=""><br>
+  			</div>
+    		
+    		
+      		<div class="div1">
+  				<label for="inputEmail9" class="abc">规格二</label>
+    		
+      			<input type="text" class="aa sizeTwo" id="inputEmail9" placeholder=""><br>
+  			</div>
+      		
+      			<div class="div1">
+  				<label for="inputEmail10" class="abc">规格三</label>
+    		
+      			<input type="text" class="aa sizeThree" id="inputEmail10" placeholder="">
+  			</div>
+      			
+      			<div class="div1">
+  				<label for="inputEmail11" class="abc">规格一价格</label>
+    		
+      			<input type="text" class="aa size1Price" id="inputEmail11" placeholder=""><br>
+  			</div>
+      			
+      			<div class="div1">
+  				<label for="inputEmail12" class="abc">规格二价格</label>
+    		
+      			<input type="text" class="aa size2Price" id="inputEmail12" placeholder="">
+  			</div>
+      			
+      			<div class="div1">
+  				<label for="inputEmail13" class="abc">规格三价格</label>
+    		
+      			<input type="text" class="aa size3Price" id="inputEmail13" placeholder=""><br>
+  			</div>
+  			</div>
+      			
+
+  		
+  			<div class="file">
+  				
+  			
+    		<label for="inputEmail14" class="abc" style="font-size: 14px;">轮播图1</label>
+    		
+      			<input type="file" name="banner" class="Banner1">
+  		
+  		
+    		<label for="inputEmail14" class="abc" style="font-size: 14px;">轮播图2</label>
+    		
+      			<input type="file" name="banner" class="Banner2"><br>
+  		
+  		
+    		<label for="inputEmail15" class="abc" style="font-size: 14px;">轮播图3</label>
+    		
+      			<input type="file" name="banner" class="Banner3">
+  		
+  		
+    		<label for="inputEmail16" class="abc" style="font-size: 14px;">详情图1</label>
+    		
+      			<input type="file" name="photo" class="photo1"><br>
+  		
+  		
+    		<label for="inputEmail17" class="abc" style="font-size: 14px;">详情图2</label>
+    		
+      			<input type="file" name="photo" class="photo2">
+  		
+  		
+    		<label for="inputEmail18" class="abc" style="font-size: 14px;">详情图3</label>
+    		
+      			<input type="file" name="photo" class="photo3"><br>
+  		
+  		
+    		<label for="inputEmail19" class="abc" style="font-size: 14px;">详情图4</label>
+    		
+      			<input type="file" name="photo" class="photo4">
+  		
+  		
+    		<label for="inputEmail20" class="abc" style="font-size: 14px;">详情图5</label>
+    		
+      			<input type="file" name="photo" class="photo5"><br>
+  		
+  		
+    		<label for="inputEmail21" class="abc" style="font-size: 14px;">详情图6</label>
+    		
+      			<input type="file" name="photo" class="photo6">
+  		
+  		
+    		<label for="inputEmail22" class="abc" style="font-size: 14px;">详情图7</label>
+    		
+      			<input type="file" name="photo" class="photo7"><br>
+  		
+  		
+    		<label for="inputEmail23" class="abc" style="font-size: 14px;">详情图8</label>
+    		
+      			<input type="file" name="photo" class="photo8">
+      		</div>
+  		</form>
+  		<div class="b" style="margin-top: 45px;     margin-left: 150px;position: relative;">
+		      <button class="btnq" style=" width:100px;position: absolute;left: 22px;top: -22px;
+            height: 40px;
+            background:#5eb95e;color:#fff;border:0;border-radius: 5px;cursor:pointer;">确认</button>
+              <button class="btn-edit" style=" width:100px;
+            height: 40px;display: none;position: absolute;left: 22px;top: -22px;
+            background:#5eb95e;color:#fff;border:0;border-radius: 5px;cursor:pointer;">确认</button>
+		      <button class="btnc" style=" width:100px;margin-left: 160px;
+            height: 40px;
+            background:#dd514c;color:#fff;border:0;border-radius: 5px;cursor:pointer;position: absolute;left: 118px;top: -22px;">关闭</button>
+		</div>
+  	</div>
+
+
+
+	
+
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+.banner_text {
+    position: relative;
+    width: 100%;
+    height:20px;
+    overflow: hidden;
+}
+
+.banner_text .bannerInner_text {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top:0;
+    width: 100%; /*在JS数据绑定结束后根据请求回来数据的多少在动态调整我们的宽度*/
+}
+.banner_text .bannerInner_text a {
+    display: inline-block;
+    width: 100%;
+}
+.banner_text .bannerInner_text a p{
+    width: 100%;
+    display: inline-block;
+    border: none;
+    line-height:0.32rem;
+}
+// .banner .bannerTip {
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     bottom: 0.26rem;
+//     height: 0.16rem;
+//     text-align: center;
+// }
+// .banner .bannerTip li {
+//     display: none;
+//     margin-left: 0.2rem;
+//     width: 0.16rem;
+//     height: 0.16rem;
+//     border-radius: 50%;
+//     background-color: #e5e8e8;
+//     cursor: pointer;
+// }
+// .banner .bannerTip li.bg {
+//     background-color: #ff5733;
+// }

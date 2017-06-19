@@ -1,0 +1,111 @@
+@import '../mygzx/Mygzxcommon.scss';
+
+.resetLoginPw-top{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    border-bottom:1px solid #EDEDED;
+    .toLastPage{
+        display: inline-block;
+        position: absolute;
+        top:0;
+        left:10px;
+        width: 20px;
+        z-index:99;
+        i{
+            color: #4A4A4A;
+        }
+    }
+    h4{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        font-weight: normal;
+        font-size:14px;
+        color:#4A4A4A;
+    }
+}
+.resetLoginPw-title{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    i{
+        display: inline-block;
+        font-size:60px;
+        color: #a8a8a8;
+    }
+}
+.resetLoginPwUl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    .resetLoginPwLi{
+        flex:1;
+        position: relative;
+        margin:0 auto;
+        width: 80%;
+        height: 38px;
+        .resetpassword, .password, .resurepassword{
+            width: 100%;
+            height: 38px;
+            border:0;
+            border-bottom:1px solid #E6E6E6;
+            padding-left:25px;
+            
+        }
+        &>i{
+            position:absolute;
+            top:10px;
+            left:5px;
+            color:#A5A5A5;
+        }
+        .findwpyzm{
+            position:absolute;
+            top:4px;
+            right:5px;
+            background-color: #199354;
+            height: 25px;
+            border:0;
+            border-radius: 3px 3px 3px 3px;
+            font-size:8px;
+            width: 80px;
+            color:#6B6B6B;
+        }
+    }
+}
+.resetLoginPwBtn{
+    width: 80%;
+    height: 38px;
+    margin: 0 auto;
+    display:block;
+    margin-top:15px;
+    border-radius: 5px 5px 5px 5px;
+    border:0;
+    background-color: #199354;
+    color:white;
+}
+.resetLoginPwfr{
+    padding-top:3px;
+    width: 80%;
+    height: 18px;
+    margin: 0 auto;
+    display:block;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:50px;
+    link{
+        color:#4A4A4A;
+    }
+}
+.hzzhdl{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color:#aBaBaB;
+}

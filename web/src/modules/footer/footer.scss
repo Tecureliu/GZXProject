@@ -1,0 +1,37 @@
+@import "../../static/font/iconfont.css";
+@import "../../static/styles/common.scss";
+footer{
+		width:100%;
+		max-width:640px;
+		text-align:center;
+		border-top:0.02rem solid #eee;
+		padding:0.06rem 0;
+		position:fixed;
+		bottom:0;
+		z-index:100;
+		background-color:white;
+		p{
+			display:inline-block;
+			width:20%;
+			font-size:0.24rem;
+			span{
+				color:#8d8a8a;
+			}
+			.iconfont{
+				color:#8d8a8a;
+				font-size:0.4rem;
+			}
+			.icon-miantiao-szxdf{
+				color:#11b57c;
+			}
+		}
+		.footer_active{
+			span{
+				color:#11b57c;
+			}
+			.iconfont{
+				color:#11b57c;
+			}
+		}
+		
+	}

@@ -1,0 +1,334 @@
+@import "../../static/font/iconfont.css";
+@import "../../static/styles/common.scss";
+
+.container{
+	height:100%;
+	max-width:640px;
+	// display:flex;
+	// flex-wrap:wrap;
+	// flex-direction:column;
+	header{
+		height:0.64rem;
+		width:100%;
+		max-width:640px;
+		position:fixed;
+		box-sizing:border-box;
+		z-index:100;
+		background: linear-gradient(to right, #36db84 , #0eb27b);
+		.head_left{
+			float:left;
+			line-height:0.64rem;
+			height:inherit;
+			padding-left:0.2rem;
+			font-size:0.24rem;
+			
+			.city{
+				color:white;
+			}
+			.icon-iconfontunfold{
+				margin-left:0.1rem;
+				font-size:0.16rem;
+				color:white;
+			}
+		}
+		.head_right{
+			float:right;
+			line-height:0.48rem;
+			width:75%;
+			padding:0.08rem 0.2rem;
+			.head_search{
+				height:0.48rem;
+				border-radius:0.44rem;
+				background: rgba(255,255,255,.2);
+				.icon-fangdajing{
+					margin-left:0.1rem;
+					font-size:0.32rem;
+					color:rgba(255,255,255,.5);
+				}
+			}
+		}
+	}
+	main{
+		width:100%;
+		background-color:#eee;
+		padding:0.64rem 0 0.94rem;
+		position:relative;
+		overflow-x: hidden;
+		overflow-y:auto;
+		
+		.ad{
+			background-color:#d6d6d7;
+			img{
+				display:block;
+				width:100%;
+			}
+		}
+		.nav{
+			padding: .3rem .2rem;
+			overflow:hidden;
+			border-bottom:0.02rem solid #eee;
+			background-color:white;
+			ul{
+				li{
+					width:24%;
+					float:left;
+					text-align:center;
+					margin-left:0.04rem;
+					margin-bottom:0.1rem;
+					img{
+						// display:block;
+						width:60%;
+					}
+					p,img{
+						display:inline-block;
+						font-size:0.24rem;
+					}
+				}
+			}
+		}
+		.news{
+			padding:0.1rem 0.2rem;
+			background-color:white;
+			margin-bottom:0.1rem;
+			font-size:0.24rem;
+			i{
+				display:inline-block;
+				overflow:hidden;
+				width:1.24rem;
+				.news_fast{
+					color:#11b57c;
+				}
+			}
+			.news_detail{
+				display:inline-block;
+				height:0.32rem;
+				overflow:hidden;
+				margin-left:0.3rem;
+				border-left:0.02rem solid #eee;
+				padding-left:0.2rem;
+				width:4.4rem;
+				font-size:0.24rem;
+			}	
+		}
+		.tu1 img{
+			width:100%;
+			display:block;
+		}
+		.tu1_list{
+			width:100%;
+			overflow:hidden;
+			background-color:white;
+			
+			
+			.tu1_ul{
+				
+				width:100%;
+				
+				white-space:nowrap;
+				overflow-x:scroll;
+				overflow-y:hidden;
+				padding-bottom:0.2rem;
+				box-sizing:border-box;
+				.tu1_li{
+					
+					display:inline-block;
+					text-align:center;
+					position:relative;
+					.tag{
+						position:absolute;
+						display:inline-block;
+						background-color:orange;
+						left:0.2rem;
+						top:0.1rem;
+						color:white;
+						padding:0.08rem;
+						border-radius:0 0.16rem 0.16rem;
+					}
+					.pic{
+						display:inline-block;
+						a{
+							img{
+								width: 1.5rem;
+							}
+						}
+					}
+					.info{
+						width: 2.5rem;
+					    padding: .2rem .2rem 0;
+					    box-sizing: border-box;
+					    text-align: center;
+					    position: relative;
+					    .name{
+					    	overflow: hidden;
+						    text-overflow: ellipsis;
+						    white-space: nowrap;
+						    line-height:0.7rem;
+					    }
+					    .price{
+						    text-overflow: ellipsis;
+						    white-space: nowrap;
+						    color:#aaa;
+						    overflow:hidden;
+						    line-height:0.4rem;
+						    strong{
+						    	color: #fb3d3d;
+    							margin-right: .1rem;
+						    }
+					    }
+					}
+					
+				}
+			}
+		}
+		.tu1_list::-webkit-scrollbar {
+		    display: none;
+		}
+		.top_tu{
+			margin-bottom:0.1rem;
+			img{
+				display:block;
+				width:100%;
+			}
+		}
+		.list{
+			ul{
+				li{
+					width:100%;
+					position:relative;
+					padding:0.2rem 0.1rem;
+					background-color:white;
+					vertical-align: center;
+					margin-bottom:0.1rem;
+					p{
+						line-height:0.4rem;
+						font-size:0.24rem;
+					}
+					.pic{
+						float:left;
+						width:30%;
+						img{
+							width:80%;
+							display:block;
+						}
+					}
+					.intr{
+						overflow:hidden;
+						padding:0 0.2rem;
+						.state{
+							overflow:hidden;
+							display:block;
+							text-overflow:ellipsis;
+							white-space:nowrap;
+							color:#aaa;
+
+						}
+					}
+					.price_norms{
+						margin-top:0.3rem;
+						strong{
+							font-size:0.28rem;
+							color:red;
+						}
+						span{
+							color:#aaa;
+							margin-left:0.1rem;
+						}
+					}
+					.list_tag{
+						position:absolute;
+						display:inline-block;
+						background-color:orange;
+						left:0.2rem;
+						top:0;
+						color:white;
+						padding:0.08rem;
+						border-radius:0 0.16rem 0.16rem;
+					}
+				}
+			}
+		}
+		.prolist{
+			padding:0.12rem 0;
+			overflow:hidden;
+
+			.blockwrap{
+				padding:0 0.24rem 0.2rem;
+				box-sizing: border-box;
+				overflow:hidden;
+    			background: #fff;
+    			.title{
+    				height: 0.86rem;
+				    line-height: 0.86rem;
+				    text-align: center;
+				    h3{
+				    	position:relative;
+				    	font-size:0.28rem;
+				  		&:before,&:after{
+				  			content:"";
+				  			width:0.24rem;
+				  			height:0.04rem;
+				  			display:block;
+				  			background-color:#888;
+				  			position:absolute;
+				  			top:0.44rem;
+				  		}
+				  		&:before{
+				  			left:32%;
+				  		}
+					    &:after{
+					    	right:32%;
+					    }
+					    div{
+					    	position:absolute;
+					    	width:0.04rem;
+					    	height:0.04rem;
+					    	background:black;
+					    	border-radius:50%;
+					    	top:0.44rem;
+					    }
+					    .point1{
+					    	left:37%;
+
+					    }
+					    .point2{
+					    	right:37%;
+					    }
+				    }
+    			}
+    			ul{
+    				
+    				li{
+    					width:42%;
+    					margin-left:0.28rem;
+    					text-align:center;
+    					float:left;
+    					p{
+    						font-size:0.24rem;
+    						img{
+    							display:block;
+    							width:100%;
+    						}
+    					}
+    					.fruit_name{
+    						line-height:0.6rem;
+    						overflow:hidden;
+							display:block;
+							text-overflow:ellipsis;
+							white-space:nowrap;
+    					}
+    					p:last-child{
+    						line-height:0.6rem;
+    						strong{
+    							color:red;
+    						}
+    						span{
+    							color:#aaa;
+    						}
+    					}
+    				}
+    			}
+			}
+		} 
+	}
+	
+}

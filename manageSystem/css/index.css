@@ -1,0 +1,571 @@
+@charset "UTF-8";
+body {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+}
+
+#header {
+  padding: 0 20px;
+  background-color: #323131;
+  height: 70px;
+}
+
+#header h1 {
+  line-height: 100px;
+  font-size: 40px;
+  color: white;
+  float: left;
+}
+
+#header p {
+  line-height: 70px;
+  float: right;
+}
+
+#header p span {
+  padding: 10px 10px;
+  background-color: #62a8d1;
+  color: white;
+  border-right: 1px solid white;
+}
+
+#header p span:last-child {
+  cursor: pointer;
+  border-right: none;
+}
+
+#header .admin_set {
+  width: 125px;
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 19px;
+  top: 55px;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 10;
+}
+
+#header .admin_set li {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 14px;
+}
+
+#footer {
+  width: 100%;
+  height: 30px;
+  background-color: #eee;
+}
+
+#footer p {
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#main {
+  width: 100%;
+  height: 625px;
+  background: #fdf8f4;
+  position: relative;
+}
+
+.main_left {
+  width: 168px;
+  height: 625px;
+  background-color: #eee;
+  border-right: 1px solid #aaa;
+  float: left;
+  overflow-y: auto;
+}
+
+.main_left h4 {
+  background-color: #1c77c8;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+.main_left > ul > li {
+  background-color: #ddd;
+  line-height: 30px;
+  position: relative;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.main_left > ul > li:hover {
+  background-color: white;
+}
+
+.main_left > ul > li > span {
+  position: absolute;
+  right: 10px;
+}
+
+.main_left > ul > li > i {
+  color: #585858;
+}
+
+.main_left > ul > ul {
+  background-color: white;
+  display: none;
+}
+
+.main_left > ul > ul > li {
+  border-bottom: 1px dotted #ccc;
+  cursor: pointer;
+}
+
+.main_left > ul > ul > li:last-child {
+  border-bottom: none;
+}
+
+.main_left > ul > ul > li a {
+  margin-left: 20px;
+  border-left: 1px dotted #ccc;
+  line-height: 30px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.shouye {
+  background-color: #ddd;
+  line-height: 30px;
+  position: relative;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+}
+
+.main_right {
+  width: 78%;
+  float: left;
+  position: absolute;
+  left: 225px;
+  top: 35px;
+}
+
+.lei span {
+  margin: 0 34px;
+  font-size: 13px;
+}
+
+.lei .allcheck {
+  margin: 0;
+  line-height: 50px;
+  font-size: 13px;
+}
+
+.lei input {
+  margin-left: 10px;
+}
+
+.list ul {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  position: relative;
+}
+
+.list ul li {
+  float: left;
+}
+
+.list ul li input {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.list ul li img {
+  width: 50px;
+  height: 50px;
+  margin-left: 66px;
+  margin-top: 5px;
+}
+
+.list ul li p {
+  font-size: 12px;
+}
+
+.list ul li .title {
+  margin-left: 35px;
+  margin-top: 15px;
+  width: 134px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  position: absolute;
+  left: 130px;
+}
+
+.list ul li .old-price {
+  margin-left: 19px;
+  margin-top: 22px;
+  position: absolute;
+  left: 305px;
+  top: 0px;
+}
+
+.list ul li .old-price:before {
+  content: '￥';
+}
+
+.list ul li .new-price {
+  margin-left: 72px;
+  margin-top: 22px;
+  position: absolute;
+  left: 351px;
+  top: 0px;
+}
+
+.list ul li .new-price:before {
+  content: '￥';
+}
+
+.list ul li .bigkind {
+  margin-left: 88px;
+  margin-top: 22px;
+  position: absolute;
+  left: 446px;
+  top: 0px;
+  width: 70px;
+}
+
+.list ul li .smallkind {
+  margin-left: 90px;
+  margin-top: 22px;
+  position: absolute;
+  left: 588px;
+  top: 0px;
+  width: 70px;
+}
+
+.list ul li .sale {
+  margin-left: 84px;
+  margin-top: 22px;
+  position: absolute;
+  left: 722px;
+  top: 0px;
+}
+
+.list ul li .origin {
+  margin-left: 79px;
+  margin-top: 22px;
+  position: absolute;
+  left: 817px;
+  top: 0px;
+  width: 70px;
+}
+
+.list ul li .size1 {
+  margin-left: 72px;
+  margin-top: 22px;
+  position: absolute;
+  left: 931px;
+  top: 0px;
+}
+
+.list ul li .size2 {
+  margin-left: 87px;
+  margin-top: 22px;
+  position: absolute;
+  left: 1033px;
+  top: 0px;
+}
+
+.list ul li .size3 {
+  margin-left: 85px;
+  margin-top: 22px;
+  position: absolute;
+  left: 1147px;
+  top: 0px;
+}
+
+.list ul li .size1-price {
+  margin-left: 96px;
+  margin-top: 22px;
+  position: absolute;
+  left: 1252px;
+  top: 0px;
+}
+
+.list ul li .size1-price:before {
+  content: '￥';
+}
+
+.list ul li .size2-price {
+  margin-left: 112px;
+  margin-top: 22px;
+  position: absolute;
+  left: 1371px;
+  top: 0px;
+}
+
+.list ul li .size2-price:before {
+  content: '￥';
+}
+
+.list ul li .size3-price {
+  margin-left: 110px;
+  margin-top: 22px;
+  position: absolute;
+  left: 1517px;
+  top: 0px;
+}
+
+.list ul li .size3-price:before {
+  content: '￥';
+}
+
+.list ul li .banner1 {
+  margin-left: 48px;
+  margin-top: 5px;
+  position: absolute;
+  left: 1650px;
+  top: 0px;
+}
+
+.list ul li .banner2 {
+  margin-left: 42px;
+  margin-top: 5px;
+  position: absolute;
+  left: 1817px;
+  top: 0px;
+}
+
+.list ul li .banner3 {
+  margin-left: 42px;
+  position: absolute;
+  left: 1974px;
+  top: 0px;
+}
+
+.list ul li .img1 {
+  margin-left: 23px;
+  position: absolute;
+  left: 2131px;
+  top: 0px;
+}
+
+.list ul li .img2 {
+  margin-left: 7px;
+  position: absolute;
+  left: 2265px;
+  top: 0px;
+}
+
+.list ul li .img3 {
+  margin-left: 0px;
+  position: absolute;
+  left: 2394px;
+  top: 0px;
+}
+
+.list ul li .img4 {
+  margin-left: 4px;
+  position: absolute;
+  left: 2512px;
+  top: 0px;
+}
+
+.list ul li .img5 {
+  margin-left: 3px;
+  position: absolute;
+  left: 2630px;
+  top: 0px;
+}
+
+.list ul li .img6 {
+  margin-left: 3px;
+  position: absolute;
+  left: 2749px;
+  top: 0px;
+}
+
+.list ul li .img7 {
+  margin-left: 3px;
+  position: absolute;
+  left: 2869px;
+  top: 0px;
+}
+
+.list ul li .img8 {
+  margin-left: 3px;
+  position: absolute;
+  left: 2990px;
+  top: 0px;
+}
+
+.list ul li .ID {
+  font-size: 12px;
+  margin-left: 87px;
+  margin-top: 22px;
+  position: absolute;
+  left: 3078px;
+  top: 0px;
+}
+
+.list ul li .edit {
+  margin: 0 3px 0 40px;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background: #71C737;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  position: absolute;
+  left: 3230px;
+  top: 0px;
+}
+
+.list ul li .cut {
+  margin-top: 15px;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background: #dd514c;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  position: absolute;
+  left: 3335px;
+  top: 0px;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container1 {
+  width: 700px;
+  height: 400px;
+  padding: 60px 20px 70px 20px;
+  position: fixed;
+  top: 500px;
+  left: 50%;
+  margin-left: -350px;
+  background: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 3px;
+  display: none;
+  background: #fdf8f4;
+  margin-left: 20px;
+  margin: 0 auto;
+}
+
+.container1 .tips {
+  text-align: center;
+  font-size: 13px;
+  color: red;
+  position: absolute;
+  top: 688px;
+  left: 45px;
+  display: none;
+}
+
+.container1 .tips p {
+  line-height: 32px;
+}
+
+.container1 .box {
+  width: 660px;
+  height: 50px;
+  background-color: #eee;
+  font-size: 16px;
+  padding: 0 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 500px;
+  left: 50%;
+  margin-left: -350px;
+  background: #323131;
+}
+
+.container1 .box p {
+  color: #fff;
+}
+
+.container1 form {
+  overflow: hidden;
+}
+
+.container1 input {
+  margin-top: 10px;
+}
+
+.container1 input.aa {
+  width: 550px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  float: right;
+}
+
+.container1 .shuru {
+  height: 677px;
+}
+
+.container1 .shuru .div1 {
+  overflow: hidden;
+}
+
+.container1 .shuru .div1 .abc {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 21px;
+  margin-left: 2px;
+}
+
+.title {
+  text-align: center;
+}
+
+.closed {
+  left: 700px;
+  top: -4px;
+  color: #fff;
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closed:hover {
+  color: red;
+}
+
+.zhe {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+
+.file {
+  margin-left: 88px;
+}
+
+.Toptitle {
+  text-align: center;
+}

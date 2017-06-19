@@ -1,0 +1,17 @@
+.back_top{
+	width:0.6rem;
+	height:0.6rem;
+	border-radius:50%;
+	border:0.02rem solid #ccc;
+	background-color:white;
+	text-align:center;
+	line-height:0.64rem;
+	position:fixed;
+	right:0.4rem;
+	bottom:1.6rem;
+	z-index:1000;
+	opacity:.7;
+	i{
+		font-size:0.36rem;
+	}
+}

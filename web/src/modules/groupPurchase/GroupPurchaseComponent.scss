@@ -1,0 +1,21 @@
+@import '../mygzx/Mygzxcommon.scss';
+
+.groupPurchase{
+    width: 1000px;
+    height: 700px;
+    background-color:#C6C6C6;
+    .groupPurchase-body{
+        background-color: white;
+        border-radius: 8px 8px 8px 8px;
+        position: fixed;
+        width: 64%;
+        height: 100px;
+        top:40%;
+        left:18%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 100px;
+        font-size: 18px;
+    }
+}
